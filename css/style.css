@@ -1,0 +1,164 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+
+body {
+    background: #f0f0f0;
+     max-width: 1400px;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+.pirmas {
+    height: 700px;
+    align-items:center;
+    justify-content:left;
+        background-color: #f0f0f0; /* Fono spalva */
+        padding: 20px; /* Atstumas nuo turinio iki kraštų */
+        border-top: 5px solid rgb(109, 166, 187); /* Mėlynas apvadas viršuje */
+        text-align:left; /* Tekstas centre */
+        background: white;
+    }
+    
+    .turinys {
+        text-align:justify;
+        justify-content: center;
+        max-width: 900px; /* Didžiausias turinio plotis */
+        margin: 0 auto; /* Centruoti turinį horizontaliai */
+    }
+
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    p {
+       
+        text-align: left;
+        align-items: center;
+        display: flex;
+        margin-top: 10px; /* Atstumas tarp nuotraukos ir teksto */
+    }
+    h1{
+       
+        text-align: left;
+        height: 20px;
+        color: #0078d4 ;
+        margin-top: 10px;
+    }
+    .papildomas-turinys {
+        display: none; /* Pradžioje paslėptas papildomas turinys */
+    }
+    
+    .read-more-checkbox:checked + .papildomas-turinys {
+        display: block; /* Rodyti papildomą turinį, kai "Read More" yra pažymėta */
+    }
+    
+    .read-more-label {
+        cursor: pointer;
+        color: blue;
+    }
+    
+    .read-more-label:hover {
+        text-decoration: underline;
+    }
+    .antras {
+       
+        margin-top: 0px;
+        text-align:left;
+        display: inline-block;
+        width: 38%;
+       
+        background-color: #f0f0f0; /* Fono spalva */
+        padding: 82px; /* Atstumas nuo turinio iki kraštų */
+        border-top: 5px solid rgb(109, 166, 187); /* Mėlynas apvadas viršuje */
+        text-align: left; /* Tekstas centre */
+        background: white;
+    }
+    .turinys {
+        max-width: 100%;
+        height:38%;
+        text-align:start;
+        justify-content: left;
+        max-width: 900px; /* Didžiausias turinio plotis */
+        margin: 0 auto; /* Centruoti turinį horizontaliai */
+    }
+    
+    img {
+        width: 300px;
+        max-width: 90%;
+        height: auto;
+        float:inline-start;
+    }
+    
+    p {
+        text-align: left;
+        width: 50%;
+        padding:0;
+        background: white;
+        margin-top: 50px; /* Atstumas tarp nuotraukos ir teksto */
+         }
+
+         h3{
+             text-align: left;
+         height: 20px;
+         color: #0078d4 ;
+        margin-top: 10px;
+         }
+         .div{
+            text-align:left;
+         }
+
+         
+    .trecias {
+         margin-top:20px;
+        text-align:left;
+        display: inline-block;
+        width: 38%;
+        justify-content:left;
+        background-color: #f0f0f0; /* Fono spalva */
+        padding: 82px; /* Atstumas nuo turinio iki kraštų */
+        border-top: 5px solid rgb(109, 166, 187); /* Mėlynas apvadas viršuje */
+        text-align: left; /* Tekstas centre */
+        background: white;
+        
+    }
+    .turinys {
+        
+        max-width: 100%;
+        height:38%;
+        text-align:left;
+        justify-content: center;
+        max-width: 900px; /* Didžiausias turinio plotis */
+        margin: 0 auto; /* Centruoti turinį horizontaliai */
+        
+    }
+    
+    img {
+        margin-top: 10px;
+         width: 300px;
+        float:inline-start;
+        max-width: 90%;
+        height: auto;
+    }
+    
+    p {
+        max-width: 30px;
+        text-align:left;
+        padding:0;
+        width: 42%;
+        display: inline-block;
+        margin-top: 10px; /* Atstumas tarp nuotraukos ir teksto */
+    }
+        h3{
+            text-align: left;
+         height: 20px;
+         color: #0078d4 ;
+         margin-top: 10px;
+        }
